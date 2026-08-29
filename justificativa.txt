@@ -1,0 +1,61 @@
+# Justificativa das imagens e vídeos
+
+Preencha abaixo, para cada imagem e vídeo utilizado, explicando suas escolhas de configuração.
+
+## Imagens
+
+1. **Arquivo:** impressora-metal.jpg
+   **Configuração aplicada:** (ex.: width 100%, border 3px, border-radius 10px)
+   **Justificativa:**
+
+2. **Arquivo:** peca-metal.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+3. **Arquivo:** po-metalico.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+4. **Arquivo:** laser-fusao.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+5. **Arquivo:** camadas-constr.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+6. **Arquivo:** implante-titanio.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+7. **Arquivo:** componente-aero.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+8. **Arquivo:** acabamento-superficie.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+9. **Arquivo:** engrenagem-metal.jpg
+   **Configuração aplicada:**
+   **Justificativa:**
+
+10. **Arquivo:** liga-especial.jpg
+    **Configuração aplicada:**
+    **Justificativa:**
+
+## Imagem mapeada
+
+11. **Arquivo:** fluxo-metal.jpg
+    **Regiões mapeadas (shape/coords):**
+    **Justificativa:**
+
+## Vídeos
+
+1. **Arquivo:** impressao-metal.mp4 (e .webm)
+   **Configuração aplicada:** (ex.: width, controls, loop, muted, autoplay, poster)
+   **Justificativa:**
+
+2. **Arquivo:** processo-metal.mp4 (e .webm)
+   **Configuração aplicada:**
+   **Justificativa:**

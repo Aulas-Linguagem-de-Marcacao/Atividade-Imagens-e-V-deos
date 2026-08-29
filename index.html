@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressão 3D em Metal</title>
+    <style>
+        :root {
+            --cor-primaria: #b8860b;
+            --cor-escura: #1a1a1a;
+            --cor-texto: #333333;
+            --cor-fundo: #f5f5f5;
+            --cor-branco: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--cor-texto);
+            background-color: var(--cor-fundo);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--cor-escura), var(--cor-primaria));
+            color: var(--cor-branco);
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--cor-escura);
+            padding: 0.8rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: var(--cor-branco);
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--cor-primaria);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section h2 {
+            color: var(--cor-escura);
+            border-bottom: 3px solid var(--cor-primaria);
+            padding-bottom: 0.4rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        section p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .info-box {
+            background-color: var(--cor-branco);
+            border-left: 5px solid var(--cor-primaria);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 6px 6px 0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-box h3 {
+            color: var(--cor-primaria);
+            margin-bottom: 0.4rem;
+        }
+
+        /* ============================================================
+           ÁREA DOS ALUNOS — CONFIGURAR AS IMAGENS E VÍDEOS
+           Os comentários MARCA indica onde intervenham.
+           Configure tamanho, bordas, autoplay, etc.
+           ============================================================ */
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .imagem-exemplo {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        /* MARCA — Configurar TODAS as imagens do tema (largura, altura, borda, etc.) */
+        .img-amostra {
+            /* <-- configure aqui (ex.: width, height, border, border-radius) */
+        }
+
+        .video-exemplo {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        /* MARCA — Configurar TODOS os vídeos do tema (largura, altura, borda, etc.) */
+        .video-amostra {
+            /* <-- configure aqui (ex.: width, height, border, border-radius) */
+        }
+
+        .legenda {
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 0.4rem;
+            font-style: italic;
+        }
+
+        aside {
+            background-color: var(--cor-escura);
+            color: var(--cor-branco);
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+
+        aside h2 {
+            color: var(--cor-primaria);
+            margin-bottom: 1rem;
+        }
+
+        aside ul {
+            list-style: none;
+            display: inline-block;
+            text-align: left;
+        }
+
+        aside li {
+            margin: 0.5rem 0;
+        }
+
+        aside li::before {
+            content: "✦ ";
+            color: var(--cor-primaria);
+        }
+
+        footer {
+            background-color: #0d0d0d;
+            color: #aaa;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Impressão 3D em Metal</h1>
+        <p>A tecnologia que transforma pó metálico em peças reais</p>
+    </header>
+
+    <nav>
+        <a href="#o-que-e">O que é</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#aplicacoes">Aplicações</a>
+        <a href="#vantagens">Vantagens</a>
+    </nav>
+
+    <main>
+        <section id="o-que-e">
+            <h2>O que é Impressão 3D em Metal?</h2>
+            <p>
+                A impressão 3D em metal, também chamada de manufatura aditiva metálica,
+                é um processo que constrói peças tridimensionais camada por camada a partir
+                de pó metálico ou filamento. Diferente da usinagem tradicional, que remove
+                material de um bloco sólido, essa técnica adiciona material, permitindo criar
+                geometrias complexas que seriam impossíveis ou muito caras de produzir com
+                métodos convencionais.
+            </p>
+
+            <div class="info-box">
+                <h3>Como funciona?</h3>
+                <p>
+                    O processo mais comum usa um laser ou feixe de elétrons para fundir seletivamente
+                    camadas finas de pó metálico. A cada camada, uma nova porção de pó é espalhada e
+                    fundida sobre a anterior, até que a peça esteja completa.
+                </p>
+            </div>
+
+            <!-- MARCA IMAGEM 1: insira aqui uma imagem que represente o tema -->
+            <div class="imagem-exemplo">
+                <!-- Inserir aqui a imagem -->
+                <p class="legenda">Máquina de impressão 3D em metal com pó metálico.</p>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Principais Tecnologias</h2>
+            <p>
+                Existem várias técnicas de impressão 3D em metal, cada uma com suas
+                particularidades de precisão, velocidade e custo:
+            </p>
+            <ul>
+                <li><strong>SLM (Selective Laser Melting):</strong> fusão seletiva a laser, uma das mais usadas.</li>
+                <li><strong>EBM (Electron Beam Melting):</strong> usa feixe de elétrons, boa para titânio.</li>
+                <li><strong>DED (Directed Energy Deposition):</strong> deposição direta de energia, ideal para reparos.</li>
+                <li><strong>Binder Jetting:</strong> aglutinante sobre pó seguido de sinterização.</li>
+            </ul>
+
+            <!-- MARCA IMAGEM 2: insira aqui uma segunda imagem sobre o tema -->
+            <div class="imagem-exemplo">
+                <!-- Inserir aqui a imagem -->
+                <p class="legenda">Peça metálica complexa pronta após a impressão.</p>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <p>
+                Explore abaixo mais imagens sobre o tema. Cada uma ilustra um aspecto diferente
+                da impressão 3D em metal.
+            </p>
+
+            <!-- MARCA GALERIA: insira aqui as demais imagens sobre o tema (mínimo 8) -->
+            <div class="galeria">
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Pó metálico fino espalhado na câmara.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Laser fundindo seletivamente o pó.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Construção camada por camada.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Implante de titânio para medicina.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Peça aeroespacial leve e resistente.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Pós-processamento e acabamento.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Engrenagem metálica personalizada.</figcaption>
+                </figure>
+                <figure class="imagem-exemplo">
+                    <!-- Inserir aqui a imagem -->
+                    <figcaption class="legenda">Ligas metálicas especiais disponíveis.</figcaption>
+                </figure>
+            </div>
+
+            <!-- MARCA MAPA: imagem mapeada para cliques (use as tags <map> e <area>) -->
+            <div class="info-box">
+                <h3>Explore a imagem mapeada</h3>
+                <p>
+                    A imagem abaixo está mapeada (<code>&lt;map&gt;</code>): clique nas regiões
+                    para ir às seções correspondentes da página.
+                </p>
+            </div>
+            <div class="imagem-exemplo">
+                <!-- Inserir aqui a imagem -->
+                <map name="mapa-fluxo">
+                    <area shape="rect" coords="0,0,300,200" href="#tecnologias" alt="Tecnologias">
+                    <area shape="rect" coords="300,0,600,200" href="#aplicacoes" alt="Aplicações">
+                    <area shape="rect" coords="0,200,300,400" href="#galeria" alt="Galeria">
+                    <area shape="rect" coords="300,200,600,400" href="#vantagens" alt="Vantagens">
+                </map>
+                <p class="legenda">Fluxo do processo — clique nas regiões para navegar.</p>
+            </div>
+        </section>
+
+        <section id="aplicacoes">
+            <h2>Aplicações no Mercado</h2>
+            <p>
+                A tecnologia é amplamente usada em setores que exigem peças leves, resistentes
+                e com geometrias complexas:
+            </p>
+            <ul>
+                <li><strong>Aeroespacial:</strong> componentes de turbinas e estruturas leves.</li>
+                <li><strong>Medicina:</strong> próteses e implantes sob medida.</li>
+                <li><strong>Automotivo:</strong> prototipagem e peças de alta performance.</li>
+                <li><strong>Petróleo e gás:</strong> peças de desgaste personalizadas.</li>
+            </ul>
+
+            <!-- MARCA VÍDEO 1: insira aqui um vídeo sobre o tema -->
+            <div class="video-exemplo">
+                <video class="video-amostra" controls poster="imagens/impressora-metal.jpg">
+                    <source src="" type="video/mp4">
+                    <source src="" type="video/webm">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+                <p class="legenda">Demonstração do processo de impressão 3D em metal.</p>
+            </div>
+        </section>
+
+        <section id="vantagens">
+            <h2>Vantagens e Desafios</h2>
+            <div class="info-box">
+                <h3>Vantagens</h3>
+                <ul>
+                    <li>Liberdade de design e geometrias complexas.</li>
+                    <li>Redução de desperdício de material.</li>
+                    <li>Produção de peças em menor tempo para protótipos.</li>
+                    <li>Produção de peças únicas ou sob medida.</li>
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3>Desafios</h3>
+                <ul>
+                    <li>Custo elevado dos equipamentos e materiais.</li>
+                    <li>Necessidade de pós-processamento (acabamento, alívio de tensões).</li>
+                    <li>Requer mão de obra especializada.</li>
+                </ul>
+            </div>
+
+            <!-- MARCA VÍDEO 2: insira aqui um segundo vídeo sobre o tema -->
+            <div class="video-exemplo">
+                <video class="video-amostra" controls poster="imagens/peca-metal.jpg">
+                    <source src="" type="video/mp4">
+                    <source src="" type="video/webm">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+                <p class="legenda">Etapas do pós-processamento de peças metálicas.</p>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Curiosidade</h2>
+        <ul>
+            <li>A primeira peça impressa em metal foi criada nos anos 1990.</li>
+            <li>É possível imprimir em aço inox, titânio, alumínio e até ligas especiais.</li>
+            <li>Peças para a indústria aeroespacial passam por rigorosos testes de qualidade.</li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>Página de estudo — Impressão 3D em Metal. Alunos devem estilizar as imagens e os vídeos.</p>
+    </footer>
+</body>
+</html>
