@@ -11,6 +11,10 @@
 - Vocês devem pesquisar na internet as imagens relacionadas ao tema, salvar estas imagens dentro do diretório **imagens** e utilizar no projeto.
 - Os vídeos devem ser linkados diretamente do YouTube ou qualquer outra plataforma de vídeo.
 
+**Instruções**
+Faça o fork deste repositório para sua conta do GitHub, logo em seguida, faça o clone do repositório criado em sua conta para o seu computador.
+Ao final da atividade fazer o versionamento e entregar o link no Google Classroom.
+
 ---
 
 ## Objetivos da atividade
