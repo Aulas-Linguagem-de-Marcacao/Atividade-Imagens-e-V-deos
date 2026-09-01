@@ -5,7 +5,8 @@
 **Seu papel:** você foi contratado(a) como analista de front-end para entregar essa página. Deverá **estilizar as imagens e os vídeos** (tamanho, bordas, autoplay, etc.) e garantir que a página funcione corretamente no navegador.
 
 **Regras:**
-- Você pode usar a internet para pesquisar na **documentação oficial** (MDN, W3C, WHATWG) — https://developer.mozilla.org.
+
+- Você pode usar a internet para pesquisar na **documentação oficial** (MDN, W3C, WHATWG) — <https://developer.mozilla.org>.
 - **NÃO pode usar ferramentas de IA** (ChatGPT, Copilot, Gemini etc.).
 - **NÃO deve copiar conteúdos prontos**; a solução deve ser escrita por você.
 - Vocês devem pesquisar na internet as imagens relacionadas ao tema, salvar estas imagens dentro do diretório **imagens** e utilizar no projeto.
@@ -43,6 +44,7 @@ impressao-metal/
 ## Passo 1 — Conheça o arquivo
 
 Abra `index.html` no editor. A estrutura já está montada com:
+
 - Cabeçalho, navegação, seções e rodapé estilizados.
 - Área reservada para as imagens, vídeos e a imagem mapeada.
 
@@ -60,6 +62,7 @@ No `<style>` da página você encontrará as classes:
 | `.video-amostra` | todos os vídeos | `width`, `height`, `border`, `border-radius`, `margin` |
 
 **Para as imagens você deve:**
+
 - Definir `width` (e `height` quando necessário) para padronizar.
 - Configurar `border` e/ou `border-radius` para um visual mais refinado.
 - Garantir que todas as imagens tenham `alt` descritivo.
@@ -67,6 +70,7 @@ No `<style>` da página você encontrará as classes:
 > **Desafio (pesquise na documentação):** use `object-fit: cover` para que as imagens não fiquem distorcidas quando tiverem largura/altura fixas.
 
 **Para os vídeos você deve:**
+
 - Definir `width`/`height`.
 - Manter `controls` e configurar `loop` e `muted`.
 - Aplicar, quando fizer sentido, `autoplay` e `poster` (imagem de capa).
@@ -76,6 +80,7 @@ No `<style>` da página você encontrará as classes:
 ## Passo 3 — Complete a imagem mapeada
 
 Já existe uma imagem mapeada (`fluxo-metal.jpg`) com a tag `<map>`. Verifique as coordenadas dos `<area>` e ajuste se necessário para que:
+
 - Cada região clique leve à seção correspondente (`#tecnologias`, `#aplicacoes`, `#galeria`, `#vantagens`).
 - As regiões fiquem sobre áreas coerentes da imagem.
 
@@ -86,6 +91,7 @@ Já existe uma imagem mapeada (`fluxo-metal.jpg`) com a tag `<map>`. Verifique a
 ## Passo 4 — Teste e revise
 
 Abra `index.html` no navegador (duplo clique) e verifique:
+
 - [ ] As imagens aparecem e estão bem dimensionadas.
 - [ ] O clique na imagem mapeada leva às seções corretas.
 - [ ] Os vídeos tocam e repetem (e, se configurado, iniciam automaticamente).
@@ -101,3 +107,62 @@ Abra `index.html` no navegador (duplo clique) e verifique:
   - qual é o arquivo;
   - qual configuração você aplicou (tamanho, borda, etc.);
   - por que essa configuração foi escolhida.
+
+---
+
+## Critérios de avaliação
+
+<table>
+<thead>
+<tr>
+<th>Capacidade</th>
+<th>Critério de avaliação</th>
+<th>Alcançado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="5">Utilizar linguagem de marcação para desenvolvimento de páginas web</td>
+<td><span style="color:red">O aluno utilizou as tags de imagem seguindo os padrões da W3C?</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span style="color:red">O launo utilizou tags de vídeos seguindo os padrões da W3C?</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span style="color:red">O aluno integrou vídeos de plataformas online na página, usando configurações adequadas para reprodução automática e em loop?</span></td>
+<td></td>
+</tr>
+<tr>
+<td>O aluno configurou a tag de imagem pensando em acessibilidade e possíveis problemas no carregamento da imagem?</td>
+<td></td>
+</tr>
+<tr>
+<td>O aluno conseguiu utilizar uma imagem mapeada fazendo acessos internos à página web?</td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="3">Demonstrar pensamento analítico</td>
+<td><span style="color:red">O aluno salvou as imagens no diretório específico dentro do projeto?</span></td>
+<td></td>
+</tr>
+<tr>
+<td>O aluno utilizou formatos de imagem compatíveis com os padrões da web?</td>
+<td></td>
+</tr>
+<tr>
+<td>O aluno avaliou a estrutura atual do projeto, fazendo alterações pontuais apenas onde necessário?</td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Demonstrar autonomia</td>
+<td><span style="color:red">O aluno utilizou a documentação oficial (W3C e MDN) quando necessário para utilizar ou configurar uma tag?</span></td>
+<td></td>
+</tr>
+<tr>
+<td>O aluno compreende a solução que ele mesmo implementou, respondendo perguntas pontuais dos professores?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
