@@ -123,46 +123,48 @@ Abra `index.html` no navegador (duplo clique) e verifique:
 <tbody>
 <tr>
 <td rowspan="5">Utilizar linguagem de marcação para desenvolvimento de páginas web</td>
-<td><font color="red">O aluno utilizou as tags de imagem seguindo os padrões da W3C?</font></td>
+<td><font color="red">(C) O aluno utilizou as tags de imagem seguindo os padrões da W3C?</font></td>
 <td></td>
 </tr>
 <tr>
-<td><font color="red">O aluno utilizou tags de vídeos seguindo os padrões da W3C?</font></td>
+<td><font color="red">(C) O aluno utilizou tags de vídeos seguindo os padrões da W3C?</font></td>
 <td></td>
 </tr>
 <tr>
-<td><font color="red">O aluno integrou vídeos de plataformas online na página, usando configurações adequadas para reprodução automática e em loop?</font></td>
+<td><font color="red">(C) O aluno integrou vídeos de plataformas online na página, usando configurações adequadas para reprodução automática e em loop?</font></td>
 <td></td>
 </tr>
 <tr>
-<td>O aluno configurou a tag de imagem pensando em acessibilidade e possíveis problemas no carregamento da imagem?</td>
+<td>(D) O aluno configurou a tag de imagem pensando em acessibilidade e possíveis problemas no carregamento da imagem?</td>
 <td></td>
 </tr>
 <tr>
-<td>O aluno conseguiu utilizar uma imagem mapeada fazendo acessos internos à página web?</td>
+<td>(D) O aluno conseguiu utilizar uma imagem mapeada fazendo acessos internos à página web?</td>
 <td></td>
 </tr>
 <tr>
 <td rowspan="3">Demonstrar pensamento analítico</td>
-<td><font color="red">O aluno salvou as imagens no diretório específico dentro do projeto?</font></td>
+<td><font color="red">(C) O aluno salvou as imagens no diretório específico dentro do projeto?</font></td>
 <td></td>
 </tr>
 <tr>
-<td>O aluno utilizou formatos de imagem compatíveis com os padrões da web?</td>
+<td>(D) O aluno utilizou formatos de imagem compatíveis com os padrões da web?</td>
 <td></td>
 </tr>
 <tr>
-<td>O aluno avaliou a estrutura atual do projeto, fazendo alterações pontuais apenas onde necessário?</td>
+<td>(D) O aluno avaliou a estrutura atual do projeto, fazendo alterações pontuais apenas onde necessário?</td>
 <td></td>
 </tr>
 <tr>
 <td rowspan="2">Demonstrar autonomia</td>
-<td><font color="red">O aluno utilizou a documentação oficial (W3C e MDN) quando necessário para utilizar ou configurar uma tag?</font></td>
+<td><font color="red">(C) O aluno utilizou a documentação oficial (W3C e MDN) quando necessário para utilizar ou configurar uma tag?</font></td>
 <td></td>
 </tr>
 <tr>
-<td>O aluno compreende a solução que ele mesmo implementou, respondendo perguntas pontuais dos professores?</td>
+<td>(D) O aluno compreende a solução que ele mesmo implementou, respondendo perguntas pontuais dos professores?</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+(C) - Critérios Críticos <br>
+(D) - Critérios Desejáveis
