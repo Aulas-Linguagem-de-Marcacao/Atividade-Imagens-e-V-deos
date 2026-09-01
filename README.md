@@ -123,15 +123,15 @@ Abra `index.html` no navegador (duplo clique) e verifique:
 <tbody>
 <tr>
 <td rowspan="5">Utilizar linguagem de marcação para desenvolvimento de páginas web</td>
-<td><span style="color:red">O aluno utilizou as tags de imagem seguindo os padrões da W3C?</span></td>
+<td><font color="red">O aluno utilizou as tags de imagem seguindo os padrões da W3C?</font></td>
 <td></td>
 </tr>
 <tr>
-<td><span style="color:red">O launo utilizou tags de vídeos seguindo os padrões da W3C?</span></td>
+<td><font color="red">O aluno utilizou tags de vídeos seguindo os padrões da W3C?</font></td>
 <td></td>
 </tr>
 <tr>
-<td><span style="color:red">O aluno integrou vídeos de plataformas online na página, usando configurações adequadas para reprodução automática e em loop?</span></td>
+<td><font color="red">O aluno integrou vídeos de plataformas online na página, usando configurações adequadas para reprodução automática e em loop?</font></td>
 <td></td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ Abra `index.html` no navegador (duplo clique) e verifique:
 </tr>
 <tr>
 <td rowspan="3">Demonstrar pensamento analítico</td>
-<td><span style="color:red">O aluno salvou as imagens no diretório específico dentro do projeto?</span></td>
+<td><font color="red">O aluno salvou as imagens no diretório específico dentro do projeto?</font></td>
 <td></td>
 </tr>
 <tr>
@@ -157,7 +157,7 @@ Abra `index.html` no navegador (duplo clique) e verifique:
 </tr>
 <tr>
 <td rowspan="2">Demonstrar autonomia</td>
-<td><span style="color:red">O aluno utilizou a documentação oficial (W3C e MDN) quando necessário para utilizar ou configurar uma tag?</span></td>
+<td><font color="red">O aluno utilizou a documentação oficial (W3C e MDN) quando necessário para utilizar ou configurar uma tag?</font></td>
 <td></td>
 </tr>
 <tr>
